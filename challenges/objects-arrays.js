@@ -142,10 +142,10 @@ zooAnimals = [{"animal_name":"Jackal, asiatic","population":5,"scientific_name":
 The zoo wants to display both the scientific name and the animal name in front of the habitats.  Return an array with only the animal and scientific names in it.  The individual values in the array should look like this "Name: Jackal, asiatic, Scientific: Canis aureus."
 
 */
-zooAnimals.forEach(currentValue => {
-  animalNames.push(`Name: ${currentValue.animal_name}, Scientific: ${currentValue.scientific_name}`);
+const animalNames = [];
+zooAnimals.forEach(element => {
+ animalNames.push(`Name: ${element.animal_name}, Scientific: ${element.scientific_name}`);
 });
-
 console.log(animalNames);
 
 /* Request 2: .map()    
