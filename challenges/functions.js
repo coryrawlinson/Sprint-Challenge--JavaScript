@@ -6,7 +6,7 @@
   * The last parameter accepts a callback 
   * In the body of the function return the callback with the two parameters that you created
 */
-function HOF(x,y,cb){
+function consume(x,y,cb){
   cb(x,y);
 }
 
