@@ -29,33 +29,49 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+The biggest difference between the two is that .forEach affects and changes the original array while .map returns a new array which whatever criteria you specified. 
 
 2. What is the difference between a function and a method?
+A function is a piece of code that is called by name. It can be passed data to operate on (i.e. the parameters) and can optionally return data (the return value). A method is a piece of code that is called by a name that is associated with an object.
 
 3. What is closure?
+A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function's variables. This is like a function within a function with the child function inside the parent function. The child function shares the parents attributes but not vice versa.
 
 4. Describe the four rules of the 'this' keyword.
+* 1. Window Binding
+If nothing is bound to "this", it will try to go to the window or global scope. The default for "this" when nothing is explicitly stated for it. 
+
+* 2. Implicit Binding
+"This" is bound to whatever is to the left of the invocation (the left of the period or dot "." is what provides the context for "this").
+ 
+* 3.  New Binding
+Used to bind "this" to new objects created by Constructor Functions. Binds "this" to the constructor function object. 
+
+* 4. Explicit Binding
+Explicit binding is when "this" is bound to a function method (using call(), apply() or bind()). 
+You can use a functions "this" scope as the context when you call or apply (to array) it. Bind is used to store a "this" for later use. 
 
 5. Why do we need super() in an extended class?
+Super() is needed in an extended class in order to access and use a parent's functions. Without it the children will not have access to a parent's methods.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
